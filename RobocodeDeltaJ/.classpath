@@ -2,6 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/Deltajava/robocode/libs/robocode.jar"/>
+	<classpathentry kind="lib" path="robocode/libs/robocode.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
