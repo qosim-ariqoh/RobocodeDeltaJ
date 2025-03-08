@@ -5,7 +5,7 @@ package jab.module;
  * 
  * @author jabier.martinez
  */
-public abstract  class  SelectEnemy  extends Part {
+public class SelectEnemy extends Part {
 	
 
 	public Module bot;

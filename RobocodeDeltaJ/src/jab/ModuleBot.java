@@ -4,7 +4,10 @@ import java.awt.Color;
 
 import jab.module.Module;
 import jab.module.Radar;
-import jab.radar.SpinningRadar;
+import jab.module.Movement;
+import jab.module.Targeting;
+import jab.module.SelectEnemy;
+import jab.module.Gun;
 
 public class ModuleBot extends Module {
 
@@ -17,16 +20,11 @@ public class ModuleBot extends Module {
 	}
 
 	protected void selectBehavior() {
-		radar = getSelectedRadar();
-		movement = null;
-		targeting = null;
-		selectEnemy = null;
-		gun = null;
-	}
-	
-	private Radar getSelectedRadar() {
-		
-		return new SpinningRadar(this);
+		radar = new Radar(this);
+		movement = new Movement(this);
+		targeting = new Targeting(this);
+		selectEnemy = new SelectEnemy(this);
+		gun = new Gun(this);
 	}
 	
 }

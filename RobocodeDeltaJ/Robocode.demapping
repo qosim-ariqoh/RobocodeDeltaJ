@@ -1,0 +1,5 @@
+SpinningRadar:
+<decore/SpinningRadar.decore>
+
+NoMovement:
+<decore/Quiet.decore>
